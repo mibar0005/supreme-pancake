@@ -1,0 +1,19 @@
+/*////////// TABLE //////////*/
+
+table {
+  margin: 5px 0 0;
+}
+
+td, th {
+  padding: 5px;
+  border-left: 1px dotted #ccc;
+}
+
+th {
+  border-bottom: 2px solid #333;
+  background: #ffdb58;
+}
+
+td {
+  border-bottom: 1px solid #ccc;
+}

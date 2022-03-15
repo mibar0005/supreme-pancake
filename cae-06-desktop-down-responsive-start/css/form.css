@@ -1,0 +1,25 @@
+/*////////// FORMS //////////*/
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #cacaca;
+  border-left: 1px solid #cacaca;
+  border-right: 1px solid #cacaca;
+  border-bottom: 0;
+}
+
+.btn {
+  padding: 10px;
+  border: 0;
+}
+
+.btn-primary {
+  background: rgb(79,104,140);
+  transition: background 1s;
+}
+
+.btn-primary:hover {
+  background: rgb(128,169,159);
+}

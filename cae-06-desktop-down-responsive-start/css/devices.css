@@ -1,0 +1,50 @@
+/* Devices */
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  [class^="col-"] {
+    float: none;
+    margin: 0 0 2% 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #menu-bar {
+    position: absolute;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 2;
+    box-shadow: 0px 2px 4px -2px black;
+  }
+
+  .main-nav a {
+    padding: 0 20px 15px 5%;
+    display: block;
+
+  }
+
+  .active:after {
+    width: 3px;
+    height: 12px;
+    left: -20px;
+    top: 0;
+    margin-top: -16px;
+    margin-bottom: 4px;
+  }
+
+
+  
+}
+

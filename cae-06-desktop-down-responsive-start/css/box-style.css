@@ -1,0 +1,58 @@
+/*////////// BOX STYLES //////////*/
+
+/*////////// Backgrounds //////////*/
+
+.pattern-background {
+  background: url(../images/pattern-background.jpg);
+}
+
+.gray-fade {
+  background: rgb(229,229,229); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+}
+
+.white-fill {
+  background: white;
+}
+
+.transparent {
+  background: rgba(255,255,255,0.85);
+}
+
+.row.transparent {
+  margin-bottom: 20px;
+}
+
+/*////////// Edge Effects //////////*/
+
+.round-edges {
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.shadow {
+  box-shadow: 0px 2px 4px #000;
+}
+
+/*////////// Rules //////////*/
+
+.highlight-edge {
+  border-top: 1px solid white;
+}
+
+.left-rule {
+  border-left: 1px dotted #ccc;
+}
+
+.light-blue-cap-rule {
+  border-top: 5px solid rgb(128,169,159);
+}
+
+.blue-cap-rule {
+  border-top: 5px solid rgb(79,104,140);
+}

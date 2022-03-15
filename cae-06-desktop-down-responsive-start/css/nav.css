@@ -1,0 +1,36 @@
+/*////////// NAV //////////*/
+
+nav a {
+  display: inline-block;
+}
+
+.logo-nav, .main-nav {
+  float: left;
+}
+
+.logo-nav a, .main-nav a {
+  padding: 20px 20px 20px 0;
+}
+
+.mobile-nav, .social-nav {
+  float: right;
+}
+
+.mobile-nav a, .social-nav a {
+  padding: 20px 0 20px 20px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.active:after {
+  content: ' ';
+  display: block;
+  position: relative;
+  background: yellow;
+  width: 100%;
+  height: 3px;
+  top: 20px;
+  left: 0;
+}
